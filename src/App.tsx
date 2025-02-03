@@ -192,7 +192,7 @@ function App() {
                 <p className="text-blue-700">SR Junior College, Vijayawada</p>
                 <p className="text-gray-600">2020 - 2022</p>
                 <p className="text-gray-700">Score: 9.70</p>
-                <a href="inter marks.jpg" className="text-blue-600 hover:underline">View Certificate</a>
+                <a href="https://drive.google.com/file/d/1f11q_KO4-SBQQMMnvHi6fYKTzE1uO1Np/view?usp=drivesdk" className="text-blue-600 hover:underline">View Certificate</a>
 
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg">
@@ -209,7 +209,7 @@ function App() {
           <section id="contact" className="py-16 px-8">
             <h2 className="text-3xl font-bold text-blue-900 mb-8">Contact</h2>
             <button 
-        onClick={() => window.location.href = 'My_RESUME.pdf'}
+        onClick={() => window.location.href = 'https://drive.google.com/file/d/1evBUYtjuP1ccxCiZbAftKs-NZrlwWvU9/view?usp=drivesdk'}
         className="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700"
       >
         <Download size={20} className="mr-2" />
