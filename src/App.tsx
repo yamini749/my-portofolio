@@ -54,7 +54,7 @@ function App() {
             <div className="relative">
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="me in crop top .jpg"
+                  src="https://drive.google.com/file/d/1elyFnkDkXhHd9owWY6w0cD2CZq7TRYzf/view?usp=drive_link"
                   alt="Yamini Settipalli"
                   className="w-full h-full object-cover"
                 />
@@ -159,7 +159,7 @@ function App() {
                 <li>Developed automation code for Android devices using Appium framework</li>
                 <li>Worked with both real and simulated Android environments</li>
               </ul>
-              <a href="amazon.jpg" className="text-blue-600 hover:underline">View Certificate</a>
+              <a href="https://drive.google.com/file/d/1f8dl783KQf8xIH-Lcbns_Y1FyQEhcBrE/view?usp=drive_link" className="text-blue-600 hover:underline">View Certificate</a>
 
             </div>
 
@@ -184,7 +184,7 @@ function App() {
                 <p className="text-blue-700">Velagapudi Ramakrishna Siddhartha Engineering College</p>
                 <p className="text-gray-600">2022 - 2026</p>
                 <p className="text-gray-700">CGPA: 9.43</p>
-                <a href="btech.jpg" className="text-blue-600 hover:underline">View Certificate</a>
+                <a href="https://drive.google.com/file/d/1f-uTevT48HvHWfp-ofuRdNwVOyyQukup/view?usp=drive_link" className="text-blue-600 hover:underline">View Certificate</a>
 
               </div>
               <div className="bg-white rounded-lg p-6 shadow-lg">
@@ -200,7 +200,7 @@ function App() {
                 <p className="text-blue-700">Adarsha Vidya Nikethan</p>
                 <p className="text-gray-600">2020</p>
                 <p className="text-gray-700">Score: 9.88</p>
-                <a href="10th marks.jpg" className="text-blue-600 hover:underline">View Certificate</a>
+                <a href="https://drive.google.com/file/d/1f79_Fu1Fx4eJGUiWSINnWQQ0deTFj98s/view?usp=drive_link" className="text-blue-600 hover:underline">View Certificate</a>
 
               </div>
             </div>
