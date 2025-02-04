@@ -38,7 +38,7 @@ const Sidebar: React.FC<SidebarProps> = ({ isOpen, toggleSidebar }) => {
           <div className="p-6 text-center">
             <div className="w-24 h-24 mx-auto rounded-full overflow-hidden border-2 border-white">
               <img
-                src="assets\yams photo.jpg"
+                src="assets\profile 2.jpg"
                 alt="Yamini Settipalli"
                 className="w-full h-full object-cover"
               />
