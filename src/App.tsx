@@ -65,7 +65,7 @@ function App() {
             <div className="relative">
               <div className="w-64 h-64 rounded-full overflow-hidden border-4 border-white shadow-xl">
                 <img
-                  src="../src/assets/profile.jpg"
+                  src="https://raw.githubusercontent.com/yamini749/my-portofolio/main/src/assets/profile.jpg"
                   alt="Yamini Settipalli"
                   className="w-full h-full object-cover"
                 />
