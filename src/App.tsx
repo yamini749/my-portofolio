@@ -10,7 +10,7 @@ function App() {
     {
       title: "Virtual Assistant",
       description:
-        "A Python-based virtual assistant with voice interaction capabilities.",
+        "A Python based virtual assistant with voice interaction capabilities.",
       image:
         "https://img.freepik.com/free-photo/smart-speaker-house-control-innovative-technology_53876-102350.jpg?t=st=1738580584~exp=1738584184~hmac=f2e2276624cb9ef982456c2169bdb9e37f5580e09df959e086a80fe6195a0d02&w=826",
       repoLink: "https://github.com/yamini749/Virtual-Assistant",
@@ -18,7 +18,7 @@ function App() {
     },
     {
       title: "Spam Mail Detection",
-      description: "ML-powered spam detection system using NLP techniques.",
+      description: "ML powered spam detection system using NLP techniques.",
       image: "https://miro.medium.com/v2/resize:fit:600/0*igDW-qYQQh_FS0Ky.jpg",
       repoLink: "https://github.com/yamini749/Spam-Mail-Detection",
       features: ["Machine Learning Integration", "Natural Language Processing"],
@@ -29,7 +29,7 @@ function App() {
       image:
         "https://www.softwebsolutions.com/wp-content/uploads/2023/07/emotion-recognition-using-Azure-Cognitive.png",
       repoLink: "https://github.com/yamini749/Facial-Emotion-Detection",
-      features: ["Real Time Analysis", "Diverse Applications"],
+      features: ["Real Time Expression Detection with OpenCV", "Seamless Computer Vision Integration"],
     },
     {
       title: "Early Paralysis Detection",
@@ -37,11 +37,11 @@ function App() {
       image:
         "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=600",
       repoLink: "https://github.com/yamini749/Early-Paralysis-Detection-model",
-      features: ["Early Detection", "Predictive Analytics"],
+      features: ["Early Detection", "Intelligent Health Tracking"],
     },
     {
       title: "Weather Application",
-      description: "MERN stack weather application with real-time updates.",
+      description: "MERN stack weather application with real time updates.",
       image:
         "https://i.ytimg.com/vi/MIYQR-Ybrn4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD1b0XOWuIiAJ105lCfSAjWIrOBfw",
       repoLink: "https://github.com/yamini749/Weather-Application",
@@ -245,7 +245,7 @@ function App() {
                   Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada, Andhra Pradesh, India
                 </p>
                 <p className="text-gray-600">2022 - 2026</p>
-                <p className="text-gray-700">CGPA: 9.43</p>
+                <p className="text-gray-700"><strong>CGPA:</strong> 9.43</p>
                 <a
                   href="https://drive.google.com/file/d/1f-uTevT48HvHWfp-ofuRdNwVOyyQukup/view?usp=drive_link"
                   className="text-blue-600 hover:underline"
@@ -259,7 +259,7 @@ function App() {
                 </h3>
                 <p className="text-blue-700">SR Junior College, Vijayawada, Andhra Pradesh, India</p>
                 <p className="text-gray-600">2020 - 2022</p>
-                <p className="text-gray-700">Score: 9.70</p>
+                <p className="text-gray-700"><strong>CGPA:</strong> 9.70</p>
                 <a
                   href="https://drive.google.com/file/d/1f11q_KO4-SBQQMMnvHi6fYKTzE1uO1Np/view?usp=drivesdk"
                   className="text-blue-600 hover:underline"
@@ -273,7 +273,7 @@ function App() {
                 </h3>
                 <p className="text-blue-700">Adarsha Vidya Nikethan, Raghavapuram, Andhra Pradesh, India</p>
                 <p className="text-gray-600">2020</p>
-                <p className="text-gray-700">Score: 9.88</p>
+                <p className="text-gray-700"><strong>CGPA:</strong> 9.88</p>
                 <a
                   href="https://drive.google.com/file/d/1f79_Fu1Fx4eJGUiWSINnWQQ0deTFj98s/view?usp=drive_link"
                   className="text-blue-600 hover:underline"
