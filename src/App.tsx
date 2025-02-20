@@ -29,15 +29,15 @@ function App() {
       image:
         "https://www.softwebsolutions.com/wp-content/uploads/2023/07/emotion-recognition-using-Azure-Cognitive.png",
       repoLink: "https://github.com/yamini749/Facial-Emotion-Detection",
-      features: ["Real-Time Analysis", "Diverse Applications"],
+      features: ["Real Time Analysis", "Diverse Applications"],
     },
     {
       title: "Early Paralysis Detection",
-      description: "Wearable system for early detection of paralysis symptoms.",
+      description: "Deep Learning Model for early detection of paralysis symptoms.",
       image:
         "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=600",
       repoLink: "https://github.com/yamini749/Early-Paralysis-Detection-model",
-      features: ["Wearable Technology", "Predictive Analytics"],
+      features: ["Early Detection", "Predictive Analytics"],
     },
     {
       title: "Weather Application",
@@ -45,7 +45,7 @@ function App() {
       image:
         "https://i.ytimg.com/vi/MIYQR-Ybrn4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD1b0XOWuIiAJ105lCfSAjWIrOBfw",
       repoLink: "https://github.com/yamini749/Weather-Application",
-      features: ["Real-Time Data Fetching", "Responsive Design"],
+      features: ["Real Time Data Fetching", "Responsive Design"],
     },
   ];
 
@@ -77,13 +77,12 @@ function App() {
               Yamini Settipalli
             </h1>
             <p className="text-xl text-blue-800 mb-6">
-              Aspiring Python Developer
+              Code🔁Create🔁Innovate🔁
             </p>
             <p className="text-blue-900 mb-8">
-              I'm a passionate Python developer with experience in AI, machine
-              learning, and Web development. I specialize in Python, Flask,
-              Node.js, and cloud technologies, and I love solving complex
-              problems and learning something new every day.
+              I am a passionate Python developer with expertise in AI and machine learning. 
+              I specialize in Python and Flask. I also enjoy working with web development, building dynamic and responsive applications using Node.js, React, and Angular. and I love solving complex
+              problems and continuously expanding my knowledge every day.
             </p>
             <div className="flex gap-4">
               <a
@@ -133,6 +132,7 @@ function App() {
                     "MySQL",
                     "MongoDB",
                     "Data Structures and Algorithms",
+                    "Object Oriented Programming System",
                   ].map((skill) => (
                     <span
                       key={skill}
@@ -242,7 +242,7 @@ function App() {
                   B.Tech CSE(AIML)
                 </h3>
                 <p className="text-blue-700">
-                  Velagapudi Ramakrishna Siddhartha Engineering College
+                  Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada, Andhra Pradesh, India
                 </p>
                 <p className="text-gray-600">2022 - 2026</p>
                 <p className="text-gray-700">CGPA: 9.43</p>
@@ -257,7 +257,7 @@ function App() {
                 <h3 className="text-xl font-bold text-blue-900">
                   Intermediate (MPC)
                 </h3>
-                <p className="text-blue-700">SR Junior College, Vijayawada</p>
+                <p className="text-blue-700">SR Junior College, Vijayawada, Andhra Pradesh, India</p>
                 <p className="text-gray-600">2020 - 2022</p>
                 <p className="text-gray-700">Score: 9.70</p>
                 <a
@@ -271,7 +271,7 @@ function App() {
                 <h3 className="text-xl font-bold text-blue-900">
                   Secondary Education
                 </h3>
-                <p className="text-blue-700">Adarsha Vidya Nikethan</p>
+                <p className="text-blue-700">Adarsha Vidya Nikethan, Raghavapuram, Andhra Pradesh, India</p>
                 <p className="text-gray-600">2020</p>
                 <p className="text-gray-700">Score: 9.88</p>
                 <a
