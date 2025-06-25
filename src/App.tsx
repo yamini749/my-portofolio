@@ -7,47 +7,64 @@ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const projects = [
-    {
-      title: "Virtual Assistant",
-      description:
-        "A Python based virtual assistant with voice interaction capabilities.",
-      image:
-        "https://img.freepik.com/free-photo/smart-speaker-house-control-innovative-technology_53876-102350.jpg?t=st=1738580584~exp=1738584184~hmac=f2e2276624cb9ef982456c2169bdb9e37f5580e09df959e086a80fe6195a0d02&w=826",
-      repoLink: "https://github.com/yamini749/Virtual-Assistant",
-      features: ["Voice Interaction", "Task Automation"],
-    },
-    {
-      title: "Spam Mail Detection",
-      description: "ML powered spam detection system using NLP techniques.",
-      image: "https://miro.medium.com/v2/resize:fit:600/0*igDW-qYQQh_FS0Ky.jpg",
-      repoLink: "https://github.com/yamini749/Spam-Mail-Detection",
-      features: ["Machine Learning Integration", "Natural Language Processing"],
-    },
-    {
-      title: "Facial Emotion Detection",
-      description: "Real time facial expression analysis system.",
-      image:
-        "https://www.softwebsolutions.com/wp-content/uploads/2023/07/emotion-recognition-using-Azure-Cognitive.png",
-      repoLink: "https://github.com/yamini749/Facial-Emotion-Detection",
-      features: ["Real Time Expression Detection with OpenCV", "Seamless Computer Vision Integration"],
-    },
-    {
-      title: "Early Paralysis Detection",
-      description: "Deep Learning Model for early detection of paralysis symptoms.",
-      image:
-        "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=600",
-      repoLink: "https://github.com/yamini749/Early-Paralysis-Detection-model",
-      features: ["Early Detection", "Intelligent Health Tracking"],
-    },
-    {
-      title: "Weather Application",
-      description: "MERN stack weather application with real time updates.",
-      image:
-        "https://i.ytimg.com/vi/MIYQR-Ybrn4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD1b0XOWuIiAJ105lCfSAjWIrOBfw",
-      repoLink: "https://github.com/yamini749/Weather-Application",
-      features: ["Real Time Data Fetching", "Responsive Design"],
-    },
-  ];
+  {
+    title: "Virtual Assistant",
+    description:
+      "A Python based virtual assistant with voice interaction capabilities.",
+    image:
+      "https://img.freepik.com/free-photo/smart-speaker-house-control-innovative-technology_53876-102350.jpg?t=st=1738580584~exp=1738584184~hmac=f2e2276624cb9ef982456c2169bdb9e37f5580e09df959e086a80fe6195a0d02&w=826",
+    repoLink: "https://github.com/yamini749/Virtual-Assistant",
+    features: ["Voice Interaction", "Task Automation"],
+  },
+  {
+    title: "Phishing and Spam Mail Classifier",
+    description:
+      "Advanced mail classification system using NLP to detect both spam and phishing emails.",
+    image: "https://miro.medium.com/v2/resize:fit:600/0*igDW-qYQQh_FS0Ky.jpg",
+    repoLink: "https://github.com/yamini749/Spam-Mail-Detection",
+    features: ["Phishing Detection", "NLP", "Machine Learning Integration"],
+  },
+  {
+    title: "Facial Emotion Detection",
+    description: "Real time facial expression analysis system.",
+    image:
+      "https://www.softwebsolutions.com/wp-content/uploads/2023/07/emotion-recognition-using-Azure-Cognitive.png",
+    repoLink: "https://github.com/yamini749/Facial-Emotion-Detection",
+    features: ["Real Time Expression Detection with OpenCV", "Seamless Computer Vision Integration"],
+  },
+  {
+    title: "Early Paralysis Detection",
+    description: "Deep Learning Model for early detection of paralysis symptoms.",
+    image:
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=600",
+    repoLink: "https://github.com/yamini749/Early-Paralysis-Detection-model",
+    features: ["Early Detection", "Intelligent Health Tracking"],
+  },
+  {
+    title: "ALS Detection using Audio Analysis",
+    description: "GAN based system for detecting ALS using phonetic audio inputs.",
+    image:
+      "https://www.als.org/sites/default/files/styles/square/public/2021-08/Voice%20Banking%20Hero.jpg",
+    repoLink: "https://github.com/yamini749/ALS-detection-", 
+    features: ["GAN-based Analysis", "Audio Signal Processing"],
+  },
+  {
+    title: "Spring AI Email Generator",
+    description: "An intelligent email management system powered by Spring Boot and Gemini AI.",
+    image:
+      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2Ul-_0EeVg0KHhdN3xohEQ.png",
+    repoLink: "https://github.com/yamini749/Spring-AI-Email-Generator", 
+    features: ["Spring Boot", "Gemini API", "Java "],
+  },
+  {
+    title: "Weather Application",
+    description: "MERN stack weather application with real time updates.",
+    image:
+      "https://i.ytimg.com/vi/MIYQR-Ybrn4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD1b0XOWuIiAJ105lCfSAjWIrOBfw",
+    repoLink: "https://github.com/yamini749/Weather-Application",
+    features: ["Real Time Data Fetching", "Responsive Design"],
+  },
+];
 
   return (
     <div className="min-h-screen">
