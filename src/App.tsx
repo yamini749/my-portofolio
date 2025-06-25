@@ -41,10 +41,10 @@ function App() {
     features: ["Early Detection", "Intelligent Health Tracking"],
   },
   {
-    title: "ALS Detection using Audio Analysis",
+    title: "ALS Detection based on Voice Signals using Deep Learning",
     description: "GAN based system for detecting ALS using phonetic audio inputs.",
     image:
-      "https://www.als.org/sites/default/files/styles/square/public/2021-08/Voice%20Banking%20Hero.jpg",
+      "https://alsnewstoday.com/wp-content/uploads/2018/07/shutterstock_374660479.jpg",
     repoLink: "https://github.com/yamini749/ALS-detection-", 
     features: ["GAN-based Analysis", "Audio Signal Processing"],
   },
@@ -52,7 +52,7 @@ function App() {
     title: "Spring AI Email Generator",
     description: "An intelligent email management system powered by Spring Boot and Gemini AI.",
     image:
-      "https://miro.medium.com/v2/resize:fit:1400/format:webp/1*2Ul-_0EeVg0KHhdN3xohEQ.png",
+      "https://penji.co/wp-content/uploads/2024/02/ai-email-generator.jpg.webp",
     repoLink: "https://github.com/yamini749/Spring-AI-Email-Generator", 
     features: ["Spring Boot", "Gemini API", "Java "],
   },
