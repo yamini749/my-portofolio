@@ -98,7 +98,7 @@ function App() {
             </p>
             <p className="text-blue-900 mb-8">
               I am a passionate Python developer with expertise in AI and machine learning. 
-              I specialize in Python and Flask. I also enjoy working with web development, building dynamic and responsive applications using Node.js, React, and Angular. and I love solving complex
+              I specialize in Python and Flask. I also enjoy working with web development, building dynamic and responsive applications. and I love solving complex
               problems and continuously expanding my knowledge every day.
             </p>
             <div className="flex gap-4">
@@ -149,7 +149,7 @@ function App() {
                     "MySQL",
                     "MongoDB",
                     "Data Structures and Algorithms",
-                    "Object Oriented Programming System",
+                    "Object Oriented Programming",
                   ].map((skill) => (
                     <span
                       key={skill}
@@ -259,7 +259,7 @@ function App() {
                   B.Tech CSE(AIML)
                 </h3>
                 <p className="text-blue-700">
-                  Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada, Andhra Pradesh, India
+                  Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada, India
                 </p>
                 <p className="text-gray-600">2022 - 2026</p>
                 <p className="text-gray-700"><strong>CGPA:</strong> 9.43</p>
@@ -274,7 +274,7 @@ function App() {
                 <h3 className="text-xl font-bold text-blue-900">
                   Intermediate (MPC)
                 </h3>
-                <p className="text-blue-700">SR Junior College, Vijayawada, Andhra Pradesh, India</p>
+                <p className="text-blue-700">SR Junior College, Vijayawada, India</p>
                 <p className="text-gray-600">2020 - 2022</p>
                 <p className="text-gray-700"><strong>CGPA:</strong> 9.70</p>
                 <a
@@ -288,9 +288,9 @@ function App() {
                 <h3 className="text-xl font-bold text-blue-900">
                   Secondary Education
                 </h3>
-                <p className="text-blue-700">Adarsha Vidya Nikethan, Raghavapuram, Andhra Pradesh, India</p>
-                <p className="text-gray-600">2020</p>
-                <p className="text-gray-700"><strong>CGPA:</strong> 9.88</p>
+                <p className="text-blue-700">Adarsha Vidya Nikethan, Raghavapuram, India</p>
+                <p className="text-gray-600">2019 - 2020</p>
+                <p className="text-gray-700"><strong>CGPA:</strong> 9.80</p>
                 <a
                   href="https://drive.google.com/file/d/1f79_Fu1Fx4eJGUiWSINnWQQ0deTFj98s/view?usp=drive_link"
                   className="text-blue-600 hover:underline"
@@ -306,7 +306,7 @@ function App() {
             <button
               onClick={() =>
                 (window.location.href =
-                  "https://drive.google.com/file/d/1evBUYtjuP1ccxCiZbAftKs-NZrlwWvU9/view?usp=drivesdk")
+                  "https://drive.google.com/file/d/1hBQ7atmh7cQXnXEkL2Fp1NVSWN9bTwrp/view?usp=drivesdk")
               }
               className="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700"
             >
