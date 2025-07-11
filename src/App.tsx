@@ -32,14 +32,7 @@ function App() {
     repoLink: "https://github.com/yamini749/Facial-Emotion-Detection",
     features: ["Real Time Expression Detection with OpenCV", "Seamless Computer Vision Integration"],
   },
-  {
-    title: "Early Paralysis Detection",
-    description: "Deep Learning Model for early detection of paralysis symptoms.",
-    image:
-      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?auto=format&fit=crop&q=80&w=600",
-    repoLink: "https://github.com/yamini749/Early-Paralysis-Detection-model",
-    features: ["Early Detection", "Intelligent Health Tracking"],
-  },
+ 
   {
     title: "ALS Detection based on Voice Signals using Deep Learning",
     description: "GAN based system for detecting ALS using phonetic audio inputs.",
