@@ -7,15 +7,7 @@ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
   const projects = [
-  {
-    title: "Virtual Assistant",
-    description:
-      "A Python based virtual assistant with voice interaction capabilities.",
-    image:
-      "https://img.freepik.com/free-photo/smart-speaker-house-control-innovative-technology_53876-102350.jpg?t=st=1738580584~exp=1738584184~hmac=f2e2276624cb9ef982456c2169bdb9e37f5580e09df959e086a80fe6195a0d02&w=826",
-    repoLink: "https://github.com/yamini749/Virtual-Assistant",
-    features: ["Voice Interaction", "Task Automation"],
-  },
+ 
   {
     title: "Facial Emotion Detection",
     description: "Real time facial expression analysis system.",
@@ -286,7 +278,7 @@ function App() {
             <button
               onClick={() =>
                 (window.location.href =
-                  "https://drive.google.com/file/d/1hBQ7atmh7cQXnXEkL2Fp1NVSWN9bTwrp/view?usp=drivesdk")
+                  "https://drive.google.com/file/d/16jTcei9XxMPZXGNQpfHfAHiIEsja14qJ/view?usp=drivesdk")
               }
               className="inline-flex items-center bg-blue-600 text-white px-4 py-2 rounded-lg shadow-lg hover:bg-blue-700"
             >
