@@ -17,14 +17,6 @@ function App() {
     features: ["Voice Interaction", "Task Automation"],
   },
   {
-    title: "Phishing and Spam Mail Classifier",
-    description:
-      "Advanced mail classification system using NLP to detect both spam and phishing emails.",
-    image: "https://miro.medium.com/v2/resize:fit:600/0*igDW-qYQQh_FS0Ky.jpg",
-    repoLink: "https://github.com/yamini749/Spam-Mail-Detection",
-    features: ["Phishing Detection", "NLP", "Machine Learning Integration"],
-  },
-  {
     title: "Facial Emotion Detection",
     description: "Real time facial expression analysis system.",
     image:
@@ -35,11 +27,11 @@ function App() {
  
   {
     title: "ALS Detection based on Voice Signals using Deep Learning",
-    description: "GAN based system for detecting ALS using phonetic audio inputs.",
+    description: "Voice based system for detecting ALS using Random Forest Classifier.",
     image:
       "https://alsnewstoday.com/wp-content/uploads/2018/07/shutterstock_374660479.jpg",
     repoLink: "https://github.com/yamini749/ALS-detection-", 
-    features: ["GAN-based Analysis", "Audio Signal Processing"],
+    features: ["CTGAN", "Machine Learning"],
   },
   {
     title: "Spring AI Email Generator",
@@ -47,7 +39,7 @@ function App() {
     image:
       "https://penji.co/wp-content/uploads/2024/02/ai-email-generator.jpg.webp",
     repoLink: "https://github.com/yamini749/Spring-AI-Email-Generator", 
-    features: ["Spring Boot", "Gemini API", "Java "],
+    features: ["React", "Spring Boot", "Gemini API", "Java "],
   },
   {
     title: "Weather Application",
@@ -55,7 +47,7 @@ function App() {
     image:
       "https://i.ytimg.com/vi/MIYQR-Ybrn4/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLD1b0XOWuIiAJ105lCfSAjWIrOBfw",
     repoLink: "https://github.com/yamini749/Weather-Application",
-    features: ["Real Time Data Fetching", "Responsive Design"],
+    features: ["React", "Node.js","OpenweatherAPI"],
   },
 ];
 
@@ -90,8 +82,8 @@ function App() {
               Code🔁Create🔁Innovate🔁
             </p>
             <p className="text-blue-900 mb-8">
-              I am a passionate Python developer with expertise in AI and machine learning. 
-              I specialize in Python and Flask. I also enjoy working with web development, building dynamic and responsive applications. and I love solving complex
+              I am a passionate Software developer with expertise Python, Core Java and SQL. 
+              I specialize in machine learning as well as web development technologies. I also enjoy building dynamic and responsive applications, and I love solving complex
               problems and continuously expanding my knowledge every day.
             </p>
             <div className="flex gap-4">
@@ -132,15 +124,13 @@ function App() {
                 <div className="flex flex-wrap gap-2">
                   {[
                     "Python",
-                    "Java",
-                    "C",
+                    "Java"
                     "HTML",
                     "CSS",
                     "JavaScript",
-                    "React js",
-                    "Node js",
-                    "MySQL",
-                    "MongoDB",
+                    "React",
+                    "Node.js",
+                    "SQL",
                     "Data Structures and Algorithms",
                     "Object Oriented Programming",
                   ].map((skill) => (
@@ -159,12 +149,10 @@ function App() {
                 </h3>
                 <div className="flex flex-wrap gap-2">
                   {[
-                    "Computer Networks",
                     "Operating Systems",
                     "Data Base Management System",
                     "Machine Learning",
                     "Deep Learning",
-                    "Artificial Intelligence",
                   ].map((subject) => (
                     <span
                       key={subject}
@@ -187,7 +175,6 @@ function App() {
                     "Problem Solving",
                     "Adaptability",
                     "Time Management",
-                    "Teamwork",
                   ].map((skill) => (
                     <span
                       key={skill}
@@ -216,14 +203,14 @@ function App() {
               <ul className="list-disc list-inside mt-4 text-gray-700">
                 <li>
                   Automated processes like skip OOBE and floor plan generation
-                  using ADB commands
+                  using ADB commands.
                 </li>
                 <li>
-                  Developed automation code for Android devices using Appium
-                  framework
+                  Developed UI automation for Android device using Appium
+                  framework.
                 </li>
                 <li>
-                  Worked with both real and simulated Android environments
+                  Worked with both real and simulated Android environments.
                 </li>
               </ul>
               <a
