@@ -12,7 +12,7 @@ function App() {
     title: "Facial Emotion Detection",
     description: "Real time facial expression analysis system.",
     image:
-      "https://www.softwebsolutions.com/wp-content/uploads/2023/07/emotion-recognition-using-Azure-Cognitive.png",
+      "https://raw.githubusercontent.com/yamini749/my-portofolio/main/src/assets/facial emotion.png",
     repoLink: "https://github.com/yamini749/Facial-Emotion-Detection",
     features: ["Real Time Expression Detection with OpenCV", "Seamless Computer Vision Integration"],
   },
@@ -23,15 +23,15 @@ function App() {
     image:
       "https://alsnewstoday.com/wp-content/uploads/2018/07/shutterstock_374660479.jpg",
     repoLink: "https://github.com/yamini749/ALS-detection-", 
-    features: ["CTGAN", "Machine Learning"],
+    features: ["CTGAN", "Machine Learning", Flask],
   },
   {
-    title: "Spring AI Email Generator",
+    title: "Email Response Generator",
     description: "An intelligent email management system powered by Spring Boot and Gemini AI.",
     image:
       "https://penji.co/wp-content/uploads/2024/02/ai-email-generator.jpg.webp",
-    repoLink: "https://github.com/yamini749/Spring-AI-Email-Generator", 
-    features: ["React", "Spring Boot", "Gemini API", "Java "],
+    repoLink: "https://github.com/yamini749/Email-Response-Generator--Springboot", 
+    features: ["React", "Spring Boot", "Google Gemini API", "Java "],
   },
   {
     title: "Weather Application",
@@ -70,10 +70,10 @@ function App() {
             <h1 className="text-4xl font-bold text-blue-900 mb-4">
               Yamini Settipalli
             </h1>
-            <p className="text-xl text-blue-800 mb-6">
+            <p className="text-xl text-black-800 mb-6">
               Code🔁Create🔁Innovate🔁
             </p>
-            <p className="text-blue-900 mb-8">
+            <p className="text-black-900 mb-8">
               I am a passionate Software developer with expertise Python, Core Java and SQL. 
               I specialize in machine learning as well as web development technologies. I also enjoy building dynamic and responsive applications, and I love solving complex
               problems and continuously expanding my knowledge every day.
@@ -234,7 +234,7 @@ function App() {
                   Velagapudi Ramakrishna Siddhartha Engineering College, Vijayawada, India
                 </p>
                 <p className="text-gray-600">2022 - 2026</p>
-                <p className="text-gray-700"><strong>CGPA:</strong> 9.43</p>
+                <p className="text-gray-700"><strong>CGPA:</strong> 9.38</p>
                 <a
                   href="https://drive.google.com/file/d/1f-uTevT48HvHWfp-ofuRdNwVOyyQukup/view?usp=drive_link"
                   className="text-blue-600 hover:underline"
